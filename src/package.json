@@ -1,0 +1,31 @@
+{
+  "name": "angular.rocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yngvebn/angular-rocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yngvebn/angular-rocks/issues"
+  },
+  "homepage": "https://github.com/yngvebn/angular-rocks#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.45",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-typescript": "^2.9.2",
+    "systemjs": "0.19.2",
+    "typescript": "^1.6.2"
+  }
+}
