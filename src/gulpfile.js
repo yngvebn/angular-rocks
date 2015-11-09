@@ -2,13 +2,13 @@ var gulp			= require('gulp'),
 	concat			= require('gulp-concat'),
 	minifyCss 		= require('gulp-minify-css'),
 	sass			= require('gulp-sass'),
-	templateCache 	= require('gulp-angular-templatecache'),
 	minifyHtml 		= require('gulp-minify-html'),
 	gulpif 			= require('gulp-if'),
-	es				= require('event-stream'),
+	server 			= require('gulp-server-livereload')
 	ts 				= require('gulp-typescript');
 
 var paths = {
+	web: '/',
 	appJavascript: ['**/*.ts', '!node_modules/**/*.*'],
 	appScss: ['**/*.scss', '!node_modules/**/*.*']
 }
@@ -31,10 +31,25 @@ gulp.task('sass', function () {
 		}));
 });
 
-
 gulp.task('default', ['ts', 'sass']);
 
-gulp.task('watch', ['ts', 'sass'],function(){
+gulp.task('watch', ['ts', 'sass', 'webserver'],function(){
 	gulp.watch(paths.appJavascript, ['ts']);
 	gulp.watch(paths.appScss, ['sass']);
+});
+
+gulp.task('webserver', function() {
+  gulp.src('./')
+    .pipe(server({
+      livereload: {
+      	enable: true,
+      	filter: function(filePath, cb) {
+          cb( !(/node_modules/.test(filePath)) &&  
+          	  !(/.*ts$/.test(filePath)) && 
+          	  !(/gulpfile.js$/.test(filePath)) );
+        }
+      },
+      defaultFile: 'index.html',
+      open: true      
+    }));
 });

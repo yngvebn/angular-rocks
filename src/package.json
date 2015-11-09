@@ -27,5 +27,8 @@
     "gulp-typescript": "^2.9.2",
     "systemjs": "0.19.2",
     "typescript": "^1.6.2"
+  },
+  "devDependencies": {
+    "gulp-server-livereload": "^1.5.4"
   }
 }
