@@ -4,3 +4,11 @@
 		{{ item }}
 	</li>
 </ul>
+<div>
+    <h1>Menu!</h1>
+    <ul class="side-menu">
+        <li><a [router-link]="['/Home']">Home</a></li>
+        <li><a [router-link]="['/Page']">Page</a></li>
+    </ul>
+</div>
+<router-outlet></router-outlet>

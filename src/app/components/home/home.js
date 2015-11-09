@@ -10,27 +10,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var angular2_1 = require('angular2/angular2');
-var router_1 = require('angular2/router');
-var all_1 = require('./components/all');
-var App = (function () {
-    function App() {
-        this.items = ['Hello', 'World'];
+var Home = (function () {
+    function Home() {
     }
-    App = __decorate([
+    Home = __decorate([
         angular2_1.Component({
-            selector: 'my-app'
-        }),
-        angular2_1.View({
-            templateUrl: 'app/app.tpl.html',
-            styleUrls: ['app/app.css'],
-            directives: [angular2_1.NgFor, router_1.RouterOutlet, router_1.RouterLink]
-        }),
-        router_1.RouteConfig([
-            { path: '/', as: 'Home', component: all_1.Home },
-            { path: '/Page', as: 'Page', component: all_1.Page }
-        ]), 
+            templateUrl: 'app/components/home/home.tpl.html',
+            styleUrls: ['app/components/home/home.css']
+        }), 
         __metadata('design:paramtypes', [])
-    ], App);
-    return App;
+    ], Home);
+    return Home;
 })();
-exports.App = App;
+exports.Home = Home;
