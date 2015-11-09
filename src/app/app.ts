@@ -1,9 +1,7 @@
-import { Component, View, NgFor} from 'angular2/angular2';
+import { Component, NgFor} from 'angular2/angular2';
 
 @Component({
-	selector: 'my-app'	
-})
-@View({
+	selector: 'my-app',
 	templateUrl: 'app/app.tpl.html',
 	styleUrls: ['app/app.css'],
 	directives: [NgFor]
