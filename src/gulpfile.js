@@ -1,11 +1,8 @@
-var gulp			= require('gulp'),
-	concat			= require('gulp-concat'),
-	minifyCss 		= require('gulp-minify-css'),
-	sass			= require('gulp-sass'),
-	minifyHtml 		= require('gulp-minify-html'),
-	gulpif 			= require('gulp-if'),
-	server 			= require('gulp-server-livereload')
-	ts 				= require('gulp-typescript');
+var  gulp			  = require('gulp'),
+	   minifyCss 	= require('gulp-minify-css'),
+	   sass			  = require('gulp-sass'),
+	   server 		= require('gulp-server-livereload')
+	   ts 				= require('gulp-typescript');
 
 var paths = {
 	web: '/',
