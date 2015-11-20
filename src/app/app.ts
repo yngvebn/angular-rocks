@@ -1,7 +1,6 @@
 import { Component, NgFor} from 'angular2/angular2';
 import {IMyInjectable} from './myInjectable';
 
-
 @Component({
 	selector: 'my-app',
 	templateUrl: './app.tpl.html',
