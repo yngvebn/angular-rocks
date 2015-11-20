@@ -1,7 +1,7 @@
 var  gulp			  = require('gulp'),
 	   minifyCss 	= require('gulp-minify-css'),
 	   sass			  = require('gulp-sass'),
-	   server 		= require('gulp-server-livereload')
+	   webserver  = require('gulp-webserver')
      es         = require('event-stream'),
      tap        = require('gulp-tap'),
      modify     = require('gulp-modify'),
@@ -90,17 +90,13 @@ gulp.task('watch', ['ts', 'sass', 'webserver'],function(){
 });
 
 gulp.task('webserver', function() {
-  gulp.src('./')
-    .pipe(server({
-      livereload: {
-      	enable: true,
-      	filter: function(filePath, cb) {
-          cb( !(/node_modules/.test(filePath)) &&  
-          	  !(/.*ts$/.test(filePath)) && 
-          	  !(/gulpfile.js$/.test(filePath)) );
-        }
-      },
-      defaultFile: 'index.html',
-      open: true      
+  gulp.src('')
+    .pipe(webserver({
+      port: 8181,
+      livereload: true,
+      directoryListing: false,
+      open: false,
+      path: '/',
+      fallback: 'index.html'
     }));
 });
