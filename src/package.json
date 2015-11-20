@@ -18,12 +18,16 @@
   "homepage": "https://github.com/yngvebn/angular-rocks#readme",
   "dependencies": {
     "angular2": "2.0.0-alpha.45",
+    "event-stream": "^3.3.2",
     "gulp": "^3.9.0",
+    "gulp-change": "^1.0.0",
     "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-minify-html": "^1.0.4",
+    "gulp-modify": "^0.1.1",
     "gulp-sass": "^2.0.4",
+    "gulp-tap": "^0.1.3",
     "gulp-typescript": "^2.9.2",
     "systemjs": "0.19.2",
     "typescript": "^1.6.2"

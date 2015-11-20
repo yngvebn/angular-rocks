@@ -555,6 +555,22 @@
 	},
 	"file_history":
 	[
+		"/C/GitHub/angular-rocks/src/app/components/page/page.ts",
+		"/C/GitHub/angular-rocks/src/app/components/page/page.tpl.html",
+		"/C/GitHub/angular-rocks/src/app/app.ts",
+		"/C/GitHub/angular-rocks/.gitignore",
+		"/C/GitHub/angular-rocks/src/gulpfile.js",
+		"/C/GitHub/angular-rocks/src/app/app.scss",
+		"/C/GitHub/angular-rocks/src/app/app.tpl.html",
+		"/C/GitHub/angular-rocks/src/app/components/page/page.scss",
+		"/C/GitHub/angular-rocks/src/app/components/home/home.tpl.html",
+		"/C/GitHub/angular-rocks/src/app/components/home/home.scss",
+		"/C/GitHub/angular-rocks/src/app/components/home/home.ts",
+		"/C/GitHub/angular-rocks/src/app/components/all.ts",
+		"/C/GitHub/angular-rocks/src/app/bootstrap.ts",
+		"/C/GitHub/angular-rocks/src/node_modules/angular2/src/core/metadata/view.d.ts",
+		"/C/GitHub/angular-rocks/src/app/all.ts",
+		"/C/GitHub/angular-rocks/src/app/home/home.ts",
 		"/C/GitHub/angular-rocks/src/angular-rocks.sublime-project",
 		"/C/GitHub/Angular2Test/src/angular2.sublime-project",
 		"/C/GitHub/angular-rocks/src/web/index.html",
@@ -666,23 +682,7 @@
 		"/C/arbeid/etoto/code/Etoto.Shared/Contracts/SharedContracts/Rikstoto.Service.SharedContracts.Test/paket.dependencies",
 		"/C/arbeid/etoto/code/Etoto.Shared/Contracts/SharedContracts/Rikstoto.Service.SharedContracts/paket.dependencies",
 		"/C/dev/angulardir/index.html",
-		"/C/Arbeid/etoto/code/master/build/commitToGitWithComment.ps1",
-		"/C/dev/angulardir/app.js",
-		"/C/Arbeid/etoto/code/Etoto.Shared/Libraries/Rikstoto.WebAPIRoutes/Solution/Rikstoto.WebAPIRoutes.sln",
-		"/C/arbeid/etoto/code/Etoto.Shared/Contracts/AccountingService/Rikstoto.Service.BatchPaymentServiceContract/paket.dependencies",
-		"/C/arbeid/etoto/code/Etoto.Shared/Tools/paket.ps1",
-		"/C/dev/diff.txt",
-		"//ffvirt01.r22web.local/etoto/Logs/BackendTcpLogging/R22PRODINTSVC01_BackendTcpLogging.txt.2015-09-20",
-		"/C/Arbeid/etoto/code/master/ITOps/Solution/Rikstoto.ITOps.Host/connectionStrings.STAGE.config",
-		"/C/dev/ang.js",
-		"/C/Arbeid/etoto/code/master/deploy/loadbalancer/TEST2/API-ForwardByURI.txt",
-		"/C/Arbeid/etoto/code/master/services/RaceDayService/Solution/Rikstoto.RacedayService.Integration/Export/XSD/Version3/qplusjackpot_v3.xsd",
-		"/C/dev/_qplus-xml/38/55942269_.xml",
-		"/C/Arbeid/etoto/code/master/services/RaceDayService/Database/runFirstAfterUp/AddExportTriggerForPStoMeetingsTodayExt.sql",
-		"/C/Arbeid/etoto/code/master/services/RaceDayService/Database/runFirstAfterUp/AddExportTriggerForQPlusJackpot.sql",
-		"/C/Users/yngven/AppData/Local/Temp/7zO6D3F.tmp/plugin.json",
-		"/C/Users/yngven/AppData/Local/Temp/7zE39EF.tmp/plugin.json",
-		"/C/Users/yngven/AppData/Local/Temp/7zO4343.tmp/plugin.json"
+		"/C/Arbeid/etoto/code/master/build/commitToGitWithComment.ps1"
 	],
 	"find":
 	{
@@ -745,6 +745,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'')+'\\'');",
 			")\n",
 			"\"Scratched\": false",
 			"RaceNo\": 6,\\n\"Scratched",
@@ -871,8 +872,7 @@
 			"\\\\n",
 			"Updates",
 			"$futureThingData",
-			"$object",
-			"bowerFiles"
+			"$object"
 		],
 		"highlight": true,
 		"in_selection": false,
